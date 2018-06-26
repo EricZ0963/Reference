@@ -1,4 +1,6 @@
-## Helpful commands for beginning working with linux  
+# Helpful commands for beginning working with linux  
+
+## SSH
 
 ### ls  
 
@@ -61,9 +63,43 @@ Remove a file. If you want to remove a directory, use the `-r` flag.
 
 Move a file or directory. Also used for renaming.  
 
-#### Examples
+#### Examples  
 
 - `mv site/hammer .`: Moves `hammer` inside the `site` directory under the current directory to the current directory (denoted as `.`).  
 - `mv My\ Music/* music`: Moves everything in a directory called `My Music` to `music`. Note that the backslash is used to escape the space character so `My` and `Music` can be combined. Another way of doing this is to enclose `My Music/*` in quotes, e.g. `mv "My Music/*" music`.  
 - `mv text.txt script.sh`: Renames `text.txt` in the current directory to `script.sh`.  
 - `mv music moosic`: Renames `music` to `moosic`. Even if this is a directory, no recursive `-r` flag needs to be added.  
+
+### exit
+
+Closes the ssh connection.  
+
+#### Example
+
+- `exit`: Close the ssh connection.  
+
+
+
+## FTP / SFTP
+
+### put  
+
+Moves a local file to the server.  
+
+#### Examples
+
+- `put homework`: Move the file `homework` in the current local directory to the current remote directory.  
+- `put C:/Users/Pig/bacon ~/lard`: move `bacon` in the specified file path to the remote home directory and rename it to `lard`.  
+-  `put C:/Users/Pig/*.mp3 ~`: move all files ending in `.mp3` in `Pig` to the remote home directory.
+
+### get  
+
+Exact opposite of `put`, except specify remote path first.  
+
+#### Example  
+
+- `get ~/hmm`: Download `hmm` located in the remote home directory to the current local directory.  
+
+### Other commands  
+
+You should also be able to use `ls`, `cd`, `mkdir`, and `rm`. Close the connection with `quit`.
