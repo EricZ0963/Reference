@@ -43,7 +43,7 @@ Edits a file using the `nano` text editor. Other popular editors include `vim` a
 #### Helpful key combinations for nano  
 
 These are also shown at the bottom of the `nano` editor, but I'll put them here anyway. `^` means ctrl.  
-- `^X`: Does not paste; instead means "exit". If you have made changes and want to save, make sure to type `Y` when prompted.  
+- `^X`: Does not cut; instead means "exit". If you have made changes and want to save, make sure to type `Y` when prompted.  
 - `^O`: Save the file. Press enter to confirm you want to save it under the same name.  
 - `^W`: Searches the document for text.  Pretty intuitive; type phrase in and hit enter.  
 
