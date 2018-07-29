@@ -1,6 +1,11 @@
 # Helpful commands for beginning working with linux  
 
-## SSH
+## SSH  
+
+A good ssh client for Windows is [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
+On MacOS/Linux, open terminal and type `ssh [username]@[ip.add.r]
+
+The default, admin (aka sudo) username is `root`.
 
 ### ls  
 
@@ -80,7 +85,9 @@ Closes the ssh connection.
 
 
 
-## FTP / SFTP
+## FTP / SFTP  
+
+[FileZilla](https://filezilla-project.org/download.php?type=client) is a good FTP client with a GUI.
 
 ### put  
 
