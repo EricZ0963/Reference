@@ -87,7 +87,7 @@ Closes the ssh connection.
 
 ## FTP / SFTP  
 
-[FileZilla](https://filezilla-project.org/download.php?type=client) is a good FTP client with a GUI.
+[FileZilla](https://filezilla-project.org/download.php?type=client) is a good FTP client with a GUI. If you would rather use CLI, the following commands will be useful.
 
 ### put  
 
